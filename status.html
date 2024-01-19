@@ -12,9 +12,9 @@
   <script>
     async function checkTeamsStatus() {
       const accessToken = await getAccessToken();
-      const userId = "user-id"; // Replace with the actual user's ID
+      const userId = "florian.kohler@fhnw.ch"; // Replace with the actual user's ID
 
-      const response = await fetch(`https://graph.microsoft.com/v1.0/users/${userId}/presence`, {
+      const response = await fetch(`https://graph.microsoft.com/v1.0/users/$florian.kohler@fhnw.ch/presence`, {
         method: "GET",
         headers: {
           Authorization: `Bearer ${accessToken}`,
