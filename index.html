@@ -8,30 +8,8 @@
 </head>
 <body>
     <h1>503: in maintenance</h1>
-    <p>next slot for changes: 22 / 1 / 24 from 1:00am to 2:00am</p> <br>
+    <p>next slot for changes: 27 / 1 / 24 from 1:00am to 2:00am</p> <br>
     
-    <p id="currentTime"> is the current time.</p>
-    <script>
-    // JavaScript to display the current time
-    function showTime() {
-        var currentTime = new Date();
-        var hours = currentTime.getHours();
-        var minutes = currentTime.getMinutes();
-        var seconds = currentTime.getSeconds();
-
-        // Add leading zero if needed
-        minutes = (minutes < 10 ? "0" : "") + minutes;
-        seconds = (seconds < 10 ? "0" : "") + seconds;
-
-        // Display the time
-        document.getElementById("currentTime").innerHTML = hours + ":" + minutes + ":" + seconds;
-    }
-
-    // Call the showTime function every second
-    setInterval(showTime, 1000);
     
-    // Initial call to display the time immediately
-    showTime();
-</script>
 </body>
 </html>
