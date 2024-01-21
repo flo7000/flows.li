@@ -27,9 +27,11 @@ if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>flows.li</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <h1>503: in maintenance</h1>
+    <p>next slot for changes: 22 / 1 / 24 from 1:00am to 2:00am</p>
 </body>
 </html>
