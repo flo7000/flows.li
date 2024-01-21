@@ -30,6 +30,6 @@ if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Hello</h1>
 </body>
 </html>
